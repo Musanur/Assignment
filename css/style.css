@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* top banner style area */
+main{
+    background-color: #2D25A0;
+}
+
+.top-banner{
+    padding: 50px;
+    margin: 0px 100px 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.topBannerInner h1{
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.topBannerInner a{
+    background: #E02C6D;
+    color: #fff;
+    padding: 16px 40px;
+    text-decoration: none;
+    
+}
+
+.topBannerInner span i{
+    margin-left: 8px;
+}
+
+.topBannerImg img{
+    width: 556px;
+    height: 438px;
+}
+/* top banner media queris start */
+    /* Extra small devices (phones, 480px and down) */
+@media (min-width: 480px) {
+  .top-banner {
+        padding: 20px;
+        margin: 0px;
+        grid-template-columns: 1fr;
+        align-items: center;
+  }
+  .topBannerImg img{
+    width: 400px;
+    margin-top: 50px;
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+     .top-banner {
+        padding: 0px;
+        margin: 0px 100px 0px 100px;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .topBannerImg img{
+        width: 556px;
+        height: 438px;
+        margin-top: 50px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+     .top-banner {
+        padding: 20px;
+        margin: 0px 30px 1px 30px;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .topBannerImg img{
+        width: 556px;
+        height: 438px;
+        margin-top: 50px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .top-banner{
+    padding: 50px;
+    margin: 0px 100px 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    }
+    .topBannerImg img{
+    width: 556px;
+    height: 438px;
+    }
+}
+/* top banner media queris end */
+
+/* top banner style area end */
+
+/* all player area  */
+.all-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px 100px 0px 100px;
+    
+}
+
+.player{
+    text-align: center;
+    margin: 20px;
+    height: 456px;
+    border-radius: 12px;
+    padding: 10px;
+    padding-top: 15px;
+    box-shadow: 7px 7px 40px #ccc;
+}
+
+.player-img img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.player-inner{
+    padding-left: 25px;
+}
+
+.player-inner h3{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.player-inner p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #6C6C6C;
+    text-align: left;
+
+}
+/* all player media queris  */
+    /* Extra small devices (phones, 480px and down) */
+@media (min-width: 480px) {
+.all-player{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 58px 70px 0px 51px;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    .all-player{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 58px 70px 0px 51px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    .all-player{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px 100px 0px 100px;
+    
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   .all-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px 100px 0px 100px;
+    
+}
+}
+/* all player media queris end */
+
+/* all player area end */
+
+/* upcoming area */
+.upcoming-match{
+    margin-top: 50px;
+    background-color: #ccc;
+    padding: 68px 100px;
+    box-shadow: inset 0px -7px 20px 0px;
+}
+
+.upcoming-match h2{
+    font-size: 30px;
+    color: #403d3d;
+    line-height: 16px;}
+.upcoming-match p{color: gray;} 
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.upcoming-card-body{
+    display: flex;display: flex;
+    justify-content: space-around;
+    border: 3px solid #d4e4f5;
+    margin: 10px;
+    position: relative;
+}
+
+.border-center{
+    border-right: 1px solid #929a92;
+    height: 70px;
+    transition: margin 2s linear ;
+    position: relative;
+    top: 20px;
+}   
+
+.upcoming-card-body:hover{
+    margin: 5px;
+}
+
+
+/* upcoming media queris */
+   /* Extra small devices (phones, 480px and down) */
+@media (min-width: 480px) {
+.container{
+    display: grid;
+    grid-template-columns:  1fr;
+}
+}
+/* Medium devices (landscape tablets, 668px and up) */
+@media (min-width: 668px) {
+.container{
+    display: grid;
+    grid-template-columns:  1fr;
+}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+   .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+/* upcoming media queris end */
+
+/* upcoming area end */
+
+/* footer area */
+footer{
+    margin: 100px 100px 50px 100px;
+    text-align: center;
+    
+}
+
+.footer-img img{
+    width: 483px;
+    height: 110px;
+}
+
+.footer-inner .icon i{
+    padding: 13px;
+    border-radius: 102px;
+    color: #969BAB;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #ccc;
+    margin-left: 10px;
+}
+
+/* footer media queris  */
+   /* Extra small devices (phones, 480px and down) */
+@media (min-width: 480px) {
+.footer-img img{
+    width: 310px;
+    height: 97px;
+}
+}
+/* Medium devices (landscape tablets, 668px and up) */
+@media (min-width: 668px) {
+  .footer-img img{
+    width: 483px;
+    height: 110px;
+}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+   
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+/* footer media queris end */
+/* footer area end */
